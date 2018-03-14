@@ -1,7 +1,7 @@
 node{
 stage ("1ST")
 {
-  checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'bd6831be-eb19-44b1-a119-786a39ac4be0', url: 'https://github.com/newtech43/sample1']]])
+  checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/newtech43/sample1.git']]])
 }
 stage ("2nd")
 {
