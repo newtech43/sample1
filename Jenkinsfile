@@ -9,6 +9,6 @@ echo "shanmukha"
 }
 stage ("3rd")
 {
-sh "sample.sh"
+sh "sh sample.sh"
 }
 }
